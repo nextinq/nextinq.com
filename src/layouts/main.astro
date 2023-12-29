@@ -23,6 +23,11 @@ const { mainClass } = Astro.props;
     <section class={mainClass ?? "mdx"}>
       <h1>NextinQ</h1>
       <slot />
+      <footer>
+        <a href="/dpa">Zpracovatelská smlouva</a>
+        <a href="/privacy">Podmínky ochrany osobních údajů</a>
+        <a href="/tos">Obchodní podmínky</a>
+      </footer>
     </section>
   </body>
 </html>

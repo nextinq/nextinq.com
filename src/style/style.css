@@ -14,7 +14,7 @@ h1,
 h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  color: rgb(255, 117, 24);
+  color: #ff7518;
   text-align: center;
 }
 
@@ -26,16 +26,75 @@ h3 {
   font-size: larger;
   font-family: "Open Sans", sans-serif;
 }
+a {
+  color: #ff7518;
+}
 p {
-  font-weight: 400;
   color: #7a7a7a;
+}
+p,
+a {
+  font-weight: 400;
   line-height: 30px;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+.user-img {
+  width: 5px;
+}
+footer {
+  color: #7cc2a0;
+  font-size: larger;
+  text-align: center;
+  margin: 45px;
+}
 .mdx {
   font-family: "Open Sans", sans-serif;
 }
-.mdx h2{
+.mdx h2 {
   text-align: left;
+}
+@media all and (min-width: 800px) {
+  body {
+    text-align: center;
+  }
+  .user-img {
+    width: 5px;
+  }
+  .title {
+    width: 700px;
+  }
+  .benefit img {
+    width: 550px;
+  }
+  a {
+    color: #ff7518;
+  }
+  p {
+    color: #7a7a7a;
+  }
+  p,
+  a {
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 27px;
+    font-family: "Open Sans", sans-serif;
+  }
+  h1,
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #ff7518;
+
+    font-size: 45px;
+  }
+
+  h2 {
+    font-weight: 400;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
 }
