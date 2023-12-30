@@ -17,9 +17,17 @@ h2 {
   color: #ff7518;
   text-align: center;
 }
+.odkazy {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 .odkaz {
   color: #a3a3a3;
-  margin: 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-decoration: none;
@@ -111,5 +119,8 @@ footer a {
     font-weight: 700;
     font-size: 30px;
     font-family: "Open Sans", sans-serif;
+  }
+  .odkaz {
+    text-align: center;
   }
 }

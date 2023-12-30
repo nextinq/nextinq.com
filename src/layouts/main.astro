@@ -13,16 +13,17 @@ const { mainClass } = Astro.props;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="/public/favicon.ico" rel="icon" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Oswald:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Astro</title>
+    <title>NextinQ</title>
   </head>
   <body>
     <section class={mainClass ?? "mdx"}>
       <h1>NextinQ</h1>
-      <a class="odkaz" href="/">Domů</a><a class="odkaz" href="/end-user">Uživatel</a>
+      <div class="odkazy"><a class="odkaz" href="/">Domů</a><a class="odkaz" href="/end-user">Uživatel</a></div>
       <slot />
       <footer>
         <a href="/dpa">Zpracovatelská smlouva</a>
